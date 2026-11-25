@@ -10,9 +10,9 @@ SerpApi has an API limit of 250 free requests per month. In the interest of not 
 
 Possible Destinations: SLC, PHX, RNO, AUS, LAX, SEA. 
 
-Preferred carriers: Delta, Southwest, United, JetBlue. 
-
 Travel Dates: Weekend trips departing Thursday, returning either Sunday (Thu→Sun) or Tuesday (Thu→Tue).
+
+Preferred carriers: Delta, Southwest, United, JetBlue. 
 
 Stops and Travel Time: Nonstop preferred and 1 stop is tolerated if it saves more than $100. Total travel time (including layover) for 1 stop trips should be less than 10 hours. 
 
@@ -35,4 +35,7 @@ A Github Actons cron job will be used to run this job every Thursday.
 
 CallMeBot on WhatsApp will be used to receive alerts as messages. 
 
-
+Alert rules:
+- Every Thursday, one WhatsApp message lists all trips under $400 that meet the restrictions above.
+- Trips under $300 are flagged at the top of the message.
+- If nothing qualifies, no message is sent.
