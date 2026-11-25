@@ -39,3 +39,7 @@ Alert rules:
 - Every Thursday, one WhatsApp message lists all trips under $400 that meet the restrictions above.
 - Trips under $300 are flagged at the top of the message.
 - If nothing qualifies, no message is sent.
+
+## Status: 
+
+Waiting for the CallMeBot to reopen to send messages... CallMeBot.com
